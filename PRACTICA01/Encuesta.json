@@ -1,0 +1,48 @@
+{
+"enquestes": [	
+  {
+   "id":1,
+   "titol":"Renou a la ciutat.",
+   "activa":true,
+   "preguntes": [
+    {
+     "ordre":1,
+     "text":"On creus que es genera el renou a la ciutat?",
+     "tipus":"opcio_multiple",
+     "opcions":[
+                 "A les llars.",
+                 "En es comerç i la indústria.",
+                 "Amb els transports i els vianants."
+                ]
+    },
+    {
+     "ordre":2,
+     "text":"Tens qualque idea per reduir el renou de la ciutat?",
+     "tipus":"text_lliure"
+    }
+   ]
+  },
+  {
+   "id":2,
+   "titol":"Neteja i imatge de la ciutat.",
+   "activa":false,
+   "preguntes": [	
+    {
+     "ordre":1,
+     "text":"Qui creus que contribueix més l'embrutiment de la ciutat?",
+     "tipus":"opcio_multiple",
+     "opcions":[
+                 "Les llars.",
+                 "El comerç i la indústria.",
+                 "Transport i vianants."
+                ]
+    },
+    {
+     "ordre":2,
+     "text":"Què penses tu que embruta més la ciutat?",
+     "tipus":"text_lliure"
+    }
+   ]
+  }
+ ]
+}
